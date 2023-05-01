@@ -1,0 +1,128 @@
+h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 0.5em;
+}
+header {
+    background-color: rgb(190, 210, 185);
+    border: 3px solid rgb(122, 70, 3);
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+    border-radius: 15px;
+    padding-bottom: 1em;
+}
+[class ^="col-3"]{
+    display:grid;
+    border: 3px solid rgb(122, 70, 3);
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+    border-radius: 15px;
+    background-color: rgb(249, 235, 205);
+    margin-bottom: 2em;
+    margin-right: 2em;
+    text-overflow: none;
+    width:34em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+h3 {
+    font-weight: bold;
+}
+.container-sm {
+    justify-content: center;
+}
+.alert {
+    display: none;
+}
+[class ^="carousel"]{
+    margin: auto;
+    justify-content: center;
+    max-width: 26em;
+    max-height: 33em;
+    
+}
+[class ^="carousel-inner"]{
+    width: 27em;
+    height: 40em;
+    justify-content:center;
+    align-content: center;
+    border: 1px solid rgb(122, 70, 3);  
+    border-radius: 15px;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+}
+[class ^="content"]{
+    grid-column: auto;
+    margin: 2em; 
+    border: 1px solid rgb(122, 70, 3);  
+    border-radius: 15px;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67); 
+    padding: 2em;
+    background-color: rgb(190, 210, 185);
+}
+[class ^="form-control"]{
+    width: 60%;
+}
+[class ^="btn"]{
+    width: 60%;
+}
+[class ^="btn"]:hover {
+    background-color:rgb(155, 251, 155) ;
+}
+[name ^="name"]{
+    width: 60%;
+    border-radius: 10px;
+}
+[class ^="result"]{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+    font-size: larger;
+    border: 1.5px solid rgb(248, 2, 2);
+    background-color: rgba(253, 221, 243, 0.818);
+    padding: 1em;
+}
+nav {
+    display: block;
+    border: solid rgb(122, 70, 3);
+    border-radius: 15px;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+}
+body {
+    background-color: rgb(167, 197, 170);
+    margin: 1em;
+    margin-bottom: 2em;
+    display: block;
+    border: solid thick rgb(122, 70, 3);
+    border-radius: 15px;
+    padding: 1em;
+}
+footer {
+    display: block;
+    background-color: rgb(190, 210, 185);
+    border: 3px solid rgb(122, 70, 3);  
+    border-radius: 15px;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+    padding: 2em;    
+}
+#gif {
+    width: 8em;    
+}
+[class ^="accordion-button"]{
+    background-color: rgb(249, 235, 205);
+    border: solid rgb(122, 88, 45);   
+}
+[class ^="accordion-body"]{
+    background-color: rgb(191, 212, 245);
+    border: solid rgb(55, 45, 121);
+}
+[class ^="accordion-item"]{
+    width: relative;
+    box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
+}
+@media screen and (max-width:600px){ 
+    [class^="carousel"]{
+        max-width: 100%;
+    }
+    [class^="carousel-inner"]{
+        max-width: 100%;
+    }
+    }
+
+    
