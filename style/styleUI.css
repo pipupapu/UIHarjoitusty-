@@ -18,7 +18,7 @@ header {
     margin-bottom: 2em;
     margin-right: 2em;
     text-overflow: none;
-    width:34em;
+    width: 34em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
 }
@@ -41,7 +41,7 @@ h3 {
 [class ^="carousel-inner"]{
     width: 27em;
     height: 40em;
-    justify-content:center;
+    justify-content: center;
     align-content: center;
     border: 1px solid rgb(122, 70, 3);  
     border-radius: 15px;
@@ -123,6 +123,6 @@ footer {
     [class^="carousel-inner"]{
         max-width: 100%;
     }
-    }
+}
 
     
