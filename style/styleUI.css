@@ -35,7 +35,7 @@ h3 {
     margin: auto;
     justify-content: center;
     max-width: 26em;
-    max-height: 33em;
+    max-height: 32em;
     
 }
 [class ^="carousel-inner"]{
@@ -116,12 +116,18 @@ footer {
     width: relative;
     box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
 }
-@media screen and (max-width:600px){ 
+@media screen and (max-width:586px){ 
     [class^="carousel"]{
         max-width: 100%;
     }
     [class^="carousel-inner"]{
         max-width: 100%;
+    }
+    .header {
+        padding-bottom: 0em;
+    }
+    [class^="carousel-inner"]{
+        max-width: fit-content;
     }
 }
 
