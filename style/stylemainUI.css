@@ -49,4 +49,15 @@ footer.img {
 body {
     color:rgb(102, 102, 102);
 }
+@media screen and (max-width:586px) {
+    [class^="container-sm"]{
+        margin-left: 1em;
+        margin-right: 1em;
+        align-self: center;
+        text-align: center;
+        max-width: 450px;
+        padding: 0.1em;
+    }
+    
+}
 
