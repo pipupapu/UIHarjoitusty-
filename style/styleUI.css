@@ -116,7 +116,7 @@ footer {
     width: relative;
     box-shadow: 1px 6px 8px 4px rgb(102, 118, 67);
 }
-@media screen and (max-width:586px){ 
+@media screen and (max-width:576px){ 
     [class^="carousel"]{
         max-width: 100%;
     }

@@ -21,7 +21,7 @@ nav {
     padding-top: 2em;
     margin: 1em;
 }
-[class="container-sm"] {
+[class="container"] {
     align-self: center;
     text-align: center;
     display: block;
@@ -49,8 +49,8 @@ footer.img {
 body {
     color:rgb(102, 102, 102);
 }
-@media screen and (max-width:586px) {
-    [class^="container-sm"]{
+@media screen and (max-width:576px) {
+    [class^="container"]{
         margin-left: 1em;
         margin-right: 1em;
         align-self: center;
