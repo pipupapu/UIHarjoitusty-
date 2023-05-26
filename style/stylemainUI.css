@@ -55,6 +55,11 @@ body {
         margin-right: 1em;
         align-self: center;
         text-align: center;
+        display: block;
+        background-color: rgb(217, 217, 217);
+        border: 3px solid rgb(122, 70, 3);  
+        border-radius: 15px;
+        box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
         max-width: 450px;
         padding: 0.1em;
     }
