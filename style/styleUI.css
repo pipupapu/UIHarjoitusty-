@@ -123,11 +123,8 @@ footer {
     [class^="carousel-inner"]{
         max-width: 100%;
     }
-    .header {
+    header {
         padding-bottom: 0em;
-    }
-    [class^="carousel-inner"]{
-        max-width: fit-content;
     }
 }
 
