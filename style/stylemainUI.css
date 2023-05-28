@@ -30,7 +30,8 @@ nav {
     border-radius: 15px;
     box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
     padding: 1em;
-    max-width: 80em;
+    width: auto;
+    position: relative;
     margin: auto;
 }
 [class^="p2"] {
@@ -61,7 +62,7 @@ body {
         border-radius: 15px;
         box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
         max-width: 28em;
-        padding: 0.2em;
+        padding: 0;
         margin: auto;
     }
 }
