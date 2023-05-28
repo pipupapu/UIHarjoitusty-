@@ -61,8 +61,12 @@ body {
         border: 3px solid rgb(122, 70, 3);  
         border-radius: 15px;
         box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
-        max-width: 28em;
-        padding: 0;
-        margin: auto;
+        max-width: 27.5em;
+        padding: 0.1em;
+        margin: auto;  
+    }
+    header, nav, footer {
+        margin-bottom: 0.2em;
+        margin-top: 0.2em; 
     }
 }
