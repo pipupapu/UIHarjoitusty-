@@ -31,6 +31,7 @@ nav {
     box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
     padding: 1em;
     max-width: 80em;
+    margin: auto;
 }
 [class^="p2"] {
     font-family:'Courier New', Courier, monospace;
