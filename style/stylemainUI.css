@@ -52,8 +52,6 @@ body {
 }
 @media screen and (max-width:576px) {
     [class^="container-sm"]{
-        margin-left: 1em;
-        margin-right: 1em;
         align-self: center;
         text-align: center;
         display: block;
@@ -63,5 +61,6 @@ body {
         box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
         max-width: 28em;
         padding: 0.2em;
+        margin: auto;
     }
 }
