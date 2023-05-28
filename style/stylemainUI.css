@@ -60,11 +60,7 @@ body {
         border: 3px solid rgb(122, 70, 3);  
         border-radius: 15px;
         box-shadow: 1px 6px 8px 4px rgb(103, 107, 93);
-        max-width: 450px;
-        padding: 0.1em;
-    }
-    [class^="col"]{
-        margin-left: 0.2em;
-        margin-right: 0.2em;
+        max-width: 28em;
+        padding: 0.2em;
     }
 }
